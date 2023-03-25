@@ -1,0 +1,31 @@
+name: clean_arch_flutter
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.3 <3.0.0'
+dependencies:
+  dartz: ^0.10.1
+  mocktail: ^0.3.0
+  equatable: ^2.0.5
+  dio: ^5.0.2
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.8.0
+  google_fonts: ^4.0.3
+  google_sign_in: ^6.0.2
+  get_it: ^7.2.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/mock/user.json
