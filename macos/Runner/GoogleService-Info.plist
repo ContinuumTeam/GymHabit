@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>723139239097-tjbemc68gkk088uvc83lt9fjjdk60mqo.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.723139239097-tjbemc68gkk088uvc83lt9fjjdk60mqo</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>723139239097-5tvhis5jl21u9ae63nl42grp89fise8i.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBEY4VIKp-aYdLaMnc6sAm2dpSreoXQnDk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>723139239097</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.cleanArchFlutter</string>
+	<key>PROJECT_ID</key>
+	<string>gymhabit-aa72f</string>
+	<key>STORAGE_BUCKET</key>
+	<string>gymhabit-aa72f.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:723139239097:ios:f3e46856955421d8360f68</string>
+</dict>
+</plist>
