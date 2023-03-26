@@ -1,7 +1,7 @@
-import 'package:clean_arch_flutter/features/auth/data/datasources/do_login_datasouce.dart';
-import 'package:clean_arch_flutter/features/auth/domain/entities/user.dart';
-import 'package:clean_arch_flutter/core/error/failure.dart';
-import 'package:clean_arch_flutter/features/auth/domain/repositories/do_login_repository_interface.dart';
+import 'package:gymhabit/features/auth/data/datasources/do_login_datasouce.dart';
+import 'package:gymhabit/features/auth/domain/entities/user.dart';
+import 'package:gymhabit/core/error/failure.dart';
+import 'package:gymhabit/features/auth/domain/repositories/do_login_repository_interface.dart';
 import 'package:dartz/dartz.dart';
 
 class DoLoginRepository implements DoLoginRepositoryInterface {

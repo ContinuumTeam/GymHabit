@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "723139239097",
+    "project_id": "gymhabit-aa72f",
+    "storage_bucket": "gymhabit-aa72f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:723139239097:android:947a00462f354878360f68",
+        "android_client_info": {
+          "package_name": "com.example.gymhabit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "723139239097-5tvhis5jl21u9ae63nl42grp89fise8i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gymhabit",
+            "certificate_hash": "0e8cd9e595c115eb37ce9fb285f3ef21310862e6"
+          }
+        },
+        {
+          "client_id": "723139239097-t5hjbo1nk5uctemhpm0nqc6md68irqll.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyIOduRXJqfFrXLVu_mDHl3uIlaAALQsw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "723139239097-746gqseaf8bv26e9fn6ob2lkslcvb4i1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

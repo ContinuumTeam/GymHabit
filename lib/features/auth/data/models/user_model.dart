@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:clean_arch_flutter/features/auth/domain/entities/user.dart';
+import 'package:gymhabit/features/auth/domain/entities/user.dart';
 
 class UserModel extends User {
   const UserModel({

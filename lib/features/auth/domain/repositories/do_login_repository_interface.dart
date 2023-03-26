@@ -1,5 +1,5 @@
-import 'package:clean_arch_flutter/core/error/failure.dart';
-import 'package:clean_arch_flutter/features/auth/domain/entities/user.dart';
+import 'package:gymhabit/core/error/failure.dart';
+import 'package:gymhabit/features/auth/domain/entities/user.dart';
 import 'package:dartz/dartz.dart';
 
 abstract class DoLoginRepositoryInterface {

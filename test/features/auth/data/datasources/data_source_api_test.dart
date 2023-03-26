@@ -1,6 +1,6 @@
-import 'package:clean_arch_flutter/core/error/failure.dart';
-import 'package:clean_arch_flutter/features/auth/data/datasources/data_source_api.dart';
-import 'package:clean_arch_flutter/features/auth/data/models/user_model.dart';
+import 'package:gymhabit/core/error/failure.dart';
+import 'package:gymhabit/features/auth/data/datasources/data_source_api.dart';
+import 'package:gymhabit/features/auth/data/models/user_model.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';

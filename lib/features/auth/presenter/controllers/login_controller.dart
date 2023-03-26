@@ -1,5 +1,5 @@
-import 'package:clean_arch_flutter/features/auth/domain/entities/user.dart';
-import 'package:clean_arch_flutter/features/auth/domain/usecase/do_login.dart';
+import 'package:gymhabit/features/auth/domain/entities/user.dart';
+import 'package:gymhabit/features/auth/domain/usecase/do_login.dart';
 
 class LoginController {
   final DoLogin _doLogin;

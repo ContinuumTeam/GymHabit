@@ -1,27 +1,50 @@
-import 'package:clean_arch_flutter/core/injections/container_injection.dart';
-import 'package:clean_arch_flutter/features/auth/presenter/controllers/login_controller.dart';
-import 'package:clean_arch_flutter/features/auth/presenter/pages/login_page.dart';
+import 'package:gymhabit/app_widget.dart';
+import 'package:gymhabit/core/injections/container_injection.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
 void main() {
   ContainerInjection.init();
-  runApp(const MyApp());
+  runApp(const AppFireBase());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class AppFireBase extends StatefulWidget {
+  const AppFireBase({super.key});
 
-  // This widget is the root of your application.
+  @override
+  State<AppFireBase> createState() => _AppFireBaseState();
+}
+
+class _AppFireBaseState extends State<AppFireBase> {
+  final Future<FirebaseApp> _initialization = Firebase.initializeApp();
+
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Clean Arch Flutter',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: LoginPage(
-        controller: getIt.get<LoginController>(),
-      ),
+    return FutureBuilder(
+      future: _initialization,
+      builder: (context, snapshot) {
+        if (snapshot.hasError) {
+          return const Material(
+              child: Center(
+            child: Text(
+              'Nao foi possivel iniciar o FireBase',
+              textDirection: TextDirection.ltr,
+            ),
+          ));
+        }
+
+        if (snapshot.connectionState == ConnectionState.done) {
+          return const MaterialApp(
+            home: AppWidget(),
+          );
+        }
+
+        return const Material(
+          child: Center(
+            child: CircularProgressIndicator(),
+          ),
+        );
+      },
     );
   }
 }

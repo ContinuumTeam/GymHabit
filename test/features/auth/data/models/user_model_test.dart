@@ -1,4 +1,4 @@
-import 'package:clean_arch_flutter/features/auth/data/models/user_model.dart';
+import 'package:gymhabit/features/auth/data/models/user_model.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 
