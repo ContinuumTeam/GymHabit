@@ -128,6 +128,9 @@ $ yarn start
 - Incluir um programa de recompensas, onde o usuário possa ganhar pontos por completar treinos e alcançar metas, que podem ser trocados por prêmios.
 - Incluir recursos de realidade virtual ou aumentada, para tornar a experiência do usuário mais envolvente e interativa.
 
+## Layout
+<a href="https://www.behance.net/gallery/151584457/FitBody-UX-case-study?tracking_source=search_projects%7Cfitness+app">Behance</a>
+
 ## :memo: License ##
 
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
