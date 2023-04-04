@@ -19,7 +19,8 @@ dependencies:
   google_sign_in: ^6.0.2
   get_it: ^7.2.0
   calendar_agenda: ^0.0.2+3
-
+  phosphor_flutter: any
+  percent_indicator: ^4.2.3
 
 dev_dependencies:
   flutter_test:
