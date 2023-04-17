@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:gymhabit/features/auth/presenter/pages/theme/app_colors.dart';
+import 'package:gymhabit/features/auth/presenter/screens/theme/app_colors.dart';
 import 'package:percent_indicator/circular_percent_indicator.dart';
 
 class StreakInfoWidget extends StatelessWidget {

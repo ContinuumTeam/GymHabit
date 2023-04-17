@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:gymhabit/features/auth/presenter/pages/theme/app_colors.dart';
+import 'package:gymhabit/features/auth/presenter/screens/theme/app_colors.dart';
 
 class AppText {
   static final titleHome = GoogleFonts.lexendDeca(
@@ -9,9 +9,9 @@ class AppText {
     color: AppColors.heading,
   );
 
-  static final titleRegular = GoogleFonts.poppins(
+  static final titleRegular = GoogleFonts.mulish(
     fontSize: 20,
-    fontWeight: FontWeight.w600,
+    fontWeight: FontWeight.bold,
     color: AppColors.primary,
   );
 
@@ -21,9 +21,9 @@ class AppText {
     color: AppColors.heading,
   );
 
-  static final titleBoldBackground = GoogleFonts.poppins(
+  static final titleBoldBackground = GoogleFonts.mulish(
     fontSize: 20,
-    fontWeight: FontWeight.w600,
+    fontWeight: FontWeight.bold,
     color: AppColors.primary,
   );
 
@@ -133,5 +133,23 @@ class AppText {
     fontSize: 13,
     fontWeight: FontWeight.w600,
     color: AppColors.body,
+  );
+
+  static final cardBoldTitle = GoogleFonts.mulish(
+    fontSize: 24,
+    fontWeight: FontWeight.normal,
+    color: AppColors.background,
+  );
+
+  static final cardText = GoogleFonts.mulish(
+    fontSize: 12,
+    fontWeight: FontWeight.w400,
+    color: AppColors.background,
+  );
+
+  static final cardTextBold = GoogleFonts.mulish(
+    fontSize: 24,
+    fontWeight: FontWeight.normal,
+    color: AppColors.background,
   );
 }

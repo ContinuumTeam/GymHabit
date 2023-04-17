@@ -1,10 +1,7 @@
 import 'package:google_fonts/google_fonts.dart';
-import 'package:gymhabit/features/auth/presenter/controllers/login_controller.dart';
-import 'package:gymhabit/features/auth/presenter/pages/home_page.dart';
-import 'package:gymhabit/features/auth/presenter/pages/login_page.dart';
-import 'package:gymhabit/core/injections/container_injection.dart';
+import 'package:gymhabit/features/auth/presenter/screens/pages/home/home_page.dart';
 import 'package:flutter/material.dart';
-import 'package:gymhabit/features/auth/presenter/pages/theme/app_colors.dart';
+import 'package:gymhabit/features/auth/presenter/screens/theme/app_colors.dart';
 
 class AppWidget extends StatelessWidget {
   const AppWidget({super.key});
