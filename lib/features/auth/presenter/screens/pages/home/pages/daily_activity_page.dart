@@ -290,7 +290,7 @@ class _DailyActivityPageState extends State<DailyActivityPage> {
                                 ),
                               ),
                             ),
-                            SizedBox(),
+                            const SizedBox(),
                             Padding(
                               padding: const EdgeInsets.symmetric(
                                 horizontal: 0,
