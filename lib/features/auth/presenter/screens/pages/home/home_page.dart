@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:gymhabit/features/auth/presenter/controllers/home_controller.dart';
 import 'package:gymhabit/features/auth/presenter/screens/pages/home/pages/daily_activity_page.dart';
+import 'package:gymhabit/features/auth/presenter/screens/pages/home/pages/nutrition_page.dart';
+import 'package:gymhabit/features/auth/presenter/screens/pages/home/pages/profile_page.dart';
+import 'package:gymhabit/features/auth/presenter/screens/pages/home/pages/trainer_page.dart';
+import 'package:gymhabit/features/auth/presenter/screens/pages/home/pages/workout_page.dart';
 import 'package:gymhabit/features/auth/presenter/screens/theme/app_colors.dart';
 import 'package:gymhabit/features/auth/presenter/screens/theme/app_text.dart';
 import 'package:phosphor_flutter/phosphor_flutter.dart';
@@ -26,7 +30,7 @@ class _HomePageState extends State<HomePage> {
           padding: const EdgeInsets.only(top: 40),
           child: Center(
             child: ListTile(
-              contentPadding: const EdgeInsets.symmetric(horizontal: 18),
+              contentPadding: const EdgeInsets.symmetric(horizontal: 24),
               leading: Container(
                 width: 38,
                 height: 38,
@@ -65,6 +69,10 @@ class _HomePageState extends State<HomePage> {
               physics: const NeverScrollableScrollPhysics(),
               children: const [
                 DailyActivityPage(),
+                NutritionPage(),
+                WorkoutPage(),
+                TrainerPage(),
+                ProfilePage(),
               ],
             );
           }),
@@ -76,7 +84,9 @@ class _HomePageState extends State<HomePage> {
           children: [
             IconButton(
               onPressed: () {
-                setState(() {});
+                setState(() {
+                  controller.setPage(0);
+                });
               },
               iconSize: 32,
               icon: const Icon(PhosphorIcons.houseFill),
@@ -84,26 +94,42 @@ class _HomePageState extends State<HomePage> {
             ),
             IconButton(
               onPressed: () {
-                setState(() {});
+                setState(() {
+                  controller.setPage(1);
+                });
               },
               iconSize: 32,
-              icon: const Icon(PhosphorIcons.compass),
+              icon: const Icon(PhosphorIcons.forkKnifeFill),
               color: AppColors.body,
             ),
             IconButton(
               onPressed: () {
-                setState(() {});
+                setState(() {
+                  controller.setPage(2);
+                });
               },
               iconSize: 32,
-              icon: const Icon(PhosphorIcons.heart),
+              icon: const Icon(PhosphorIcons.barbellFill),
               color: AppColors.body,
             ),
             IconButton(
               onPressed: () {
-                setState(() {});
+                setState(() {
+                  controller.setPage(3);
+                });
+              },
+              iconSize: 32,
+              icon: const Icon(PhosphorIcons.userFill),
+              color: AppColors.body,
+            ),
+            IconButton(
+              onPressed: () {
+                setState(() {
+                  controller.setPage(4);
+                });
               },
               iconSize: 34,
-              icon: const Icon(PhosphorIcons.userCircle),
+              icon: const Icon(PhosphorIcons.userCircleFill),
               color: AppColors.body,
             ),
           ],
