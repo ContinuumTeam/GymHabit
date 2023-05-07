@@ -18,7 +18,7 @@ class _DailyActivityPageState extends State<DailyActivityPage> {
   Widget build(BuildContext context) {
     return SingleChildScrollView(
       child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 18),
+        padding: const EdgeInsets.only(left: 24, right: 24, bottom: 6),
         child: Column(
           children: [
             const StreakInfoWidget(

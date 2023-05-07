@@ -9,7 +9,7 @@ class StreakInfoWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 18),
+      padding: const EdgeInsets.only(bottom: 18),
       child: Container(
         decoration: BoxDecoration(
           color: AppColors.card,
@@ -17,18 +17,18 @@ class StreakInfoWidget extends StatelessWidget {
           border: Border.all(color: AppColors.stroke),
         ),
         child: Padding(
-          padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 8),
+          padding: const EdgeInsets.all(8),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               CircularPercentIndicator(
-                radius: 60,
+                radius: 50,
                 lineWidth: 8,
                 animation: true,
                 percent: 0.7,
                 center: Container(
-                    width: 90,
-                    height: 90,
+                    width: 70,
+                    height: 70,
                     decoration: BoxDecoration(
                       color: Colors.orangeAccent.withOpacity(0.2),
                       borderRadius: BorderRadius.circular(50),
@@ -38,7 +38,7 @@ class StreakInfoWidget extends StatelessWidget {
                         "75%",
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
-                          fontSize: 20.0,
+                          fontSize: 18.0,
                           color: Colors.orange,
                         ),
                       ),
