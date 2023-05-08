@@ -99,7 +99,7 @@ class _HomePageState extends State<HomePage> {
                 });
               },
               iconSize: 32,
-              icon: const Icon(PhosphorIcons.forkKnifeFill),
+              icon: const Icon(Icons.restaurant_menu),
               color: AppColors.body,
             ),
             IconButton(
@@ -109,7 +109,7 @@ class _HomePageState extends State<HomePage> {
                 });
               },
               iconSize: 32,
-              icon: const Icon(PhosphorIcons.barbellFill),
+              icon: const Icon(Icons.fitness_center),
               color: AppColors.body,
             ),
             IconButton(
@@ -119,7 +119,7 @@ class _HomePageState extends State<HomePage> {
                 });
               },
               iconSize: 32,
-              icon: const Icon(PhosphorIcons.userFill),
+              icon: const Icon(Icons.supervisor_account),
               color: AppColors.body,
             ),
             IconButton(
@@ -129,7 +129,7 @@ class _HomePageState extends State<HomePage> {
                 });
               },
               iconSize: 34,
-              icon: const Icon(PhosphorIcons.userCircleFill),
+              icon: const Icon(Icons.account_circle),
               color: AppColors.body,
             ),
           ],
