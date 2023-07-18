@@ -1,7 +1,11 @@
 import 'package:google_fonts/google_fonts.dart';
-import 'package:gymhabit/features/auth/presenter/screens/pages/home/home_page.dart';
 import 'package:flutter/material.dart';
-import 'package:gymhabit/features/auth/presenter/screens/theme/app_colors.dart';
+import 'package:gymhabit/features/theme/app_colors.dart';
+
+import 'core/injections/container_injection.dart';
+import 'features/auth/presenter/controllers/login_controller.dart';
+import 'features/auth/presenter/screens/pages/login/login_page.dart';
+import 'features/home/presenter/home_page.dart';
 
 class AppWidget extends StatelessWidget {
   const AppWidget({super.key});
@@ -21,12 +25,12 @@ class AppWidget extends StatelessWidget {
         ),
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      initialRoute: "/home",
+      initialRoute: "/login",
       routes: {
         // "/spalsh": (context) => const SplashPage(),
-        // "/login": (context) => LoginPage(
-        //       controller: getIt.get<LoginController>(),
-        //     ),
+        "/login": (context) => LoginPage(
+              controller: getIt.get<LoginController>(),
+            ),
         "/home": (context) => const HomePage(),
       },
     );

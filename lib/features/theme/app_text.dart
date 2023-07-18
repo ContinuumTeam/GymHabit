@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:gymhabit/features/auth/presenter/screens/theme/app_colors.dart';
+import 'package:gymhabit/features/theme/app_colors.dart';
 
 class AppText {
   static final titleHome = GoogleFonts.lexendDeca(
@@ -151,5 +151,11 @@ class AppText {
     fontSize: 24,
     fontWeight: FontWeight.normal,
     color: AppColors.background,
+  );
+
+  static final buttonGray = GoogleFonts.inter(
+    fontSize: 15,
+    fontWeight: FontWeight.w400,
+    color: AppColors.primary,
   );
 }

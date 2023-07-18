@@ -1,22 +1,20 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
 
-class TrainerPage extends StatefulWidget {
-  const TrainerPage({super.key});
+class NutritionPage extends StatefulWidget {
+  const NutritionPage({super.key});
 
   @override
-  State<TrainerPage> createState() => _TrainerPageState();
+  State<NutritionPage> createState() => _NutritionPageState();
 }
 
-class _TrainerPageState extends State<TrainerPage> {
+class _NutritionPageState extends State<NutritionPage> {
   @override
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 24),
       child: Container(
         decoration: const BoxDecoration(
-            color: Colors.blueGrey,
+            color: Colors.red,
             borderRadius: BorderRadius.all(Radius.circular(8))),
       ),
     );

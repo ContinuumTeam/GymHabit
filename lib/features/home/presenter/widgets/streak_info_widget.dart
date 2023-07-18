@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:gymhabit/features/auth/presenter/screens/theme/app_colors.dart';
+import 'package:gymhabit/features/theme/app_colors.dart';
 import 'package:percent_indicator/circular_percent_indicator.dart';
 
 class StreakInfoWidget extends StatelessWidget {
@@ -47,13 +47,13 @@ class StreakInfoWidget extends StatelessWidget {
                 progressColor: AppColors.primary,
                 backgroundColor: Colors.transparent,
               ),
-              Expanded(
+              const Expanded(
                 child: Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 18),
+                  padding: EdgeInsets.symmetric(horizontal: 18),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: const [
+                    children: [
                       Text(
                         'Week achievement',
                         style: TextStyle(

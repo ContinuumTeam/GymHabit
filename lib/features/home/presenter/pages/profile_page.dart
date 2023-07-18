@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
 
 class ProfilePage extends StatefulWidget {
   const ProfilePage({super.key});
@@ -20,6 +18,5 @@ class _ProfilePageState extends State<ProfilePage> {
             borderRadius: BorderRadius.all(Radius.circular(8))),
       ),
     );
-    ;
   }
 }

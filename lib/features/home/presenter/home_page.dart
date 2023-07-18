@@ -1,12 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:gymhabit/features/auth/presenter/controllers/home_controller.dart';
-import 'package:gymhabit/features/auth/presenter/screens/pages/home/pages/daily_activity_page.dart';
-import 'package:gymhabit/features/auth/presenter/screens/pages/home/pages/nutrition_page.dart';
-import 'package:gymhabit/features/auth/presenter/screens/pages/home/pages/profile_page.dart';
-import 'package:gymhabit/features/auth/presenter/screens/pages/home/pages/trainer_page.dart';
-import 'package:gymhabit/features/auth/presenter/screens/pages/home/pages/workout_page.dart';
-import 'package:gymhabit/features/auth/presenter/screens/theme/app_colors.dart';
-import 'package:gymhabit/features/auth/presenter/screens/theme/app_text.dart';
+
+import 'package:gymhabit/features/theme/app_colors.dart';
+import 'package:gymhabit/features/theme/app_text.dart';
+
+import 'package:gymhabit/features/home/presenter/controller/home_controller.dart';
+import 'package:gymhabit/features/home/presenter/pages/daily_activity_page.dart';
+import 'package:gymhabit/features/home/presenter/pages/nutrition_page.dart';
+import 'package:gymhabit/features/home/presenter/pages/profile_page.dart';
+import 'package:gymhabit/features/home/presenter/pages/trainer_page.dart';
+import 'package:gymhabit/features/home/presenter/pages/workout_page.dart';
+
 import 'package:phosphor_flutter/phosphor_flutter.dart';
 
 class HomePage extends StatefulWidget {

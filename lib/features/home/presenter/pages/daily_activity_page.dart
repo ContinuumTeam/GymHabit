@@ -1,10 +1,12 @@
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
-import 'package:gymhabit/features/auth/presenter/screens/pages/home/widgets/streak_info_widget.dart';
-import 'package:gymhabit/features/auth/presenter/screens/theme/app_colors.dart';
-import 'package:gymhabit/features/auth/presenter/screens/theme/app_text.dart';
+
+import 'package:gymhabit/features/theme/app_colors.dart';
+import 'package:gymhabit/features/theme/app_text.dart';
 import 'package:percent_indicator/circular_percent_indicator.dart';
 import 'package:phosphor_flutter/phosphor_flutter.dart';
+
+import '../widgets/streak_info_widget.dart';
 
 class DailyActivityPage extends StatefulWidget {
   const DailyActivityPage({super.key});
