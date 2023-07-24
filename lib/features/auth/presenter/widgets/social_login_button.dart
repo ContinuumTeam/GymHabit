@@ -6,9 +6,18 @@ import '../../../theme/app_text.dart';
 
 class SocialButton extends StatelessWidget {
   final VoidCallback onTap;
+  final String label;
+  final String icon;
+  final Color background;
+  final TextStyle color;
+
   const SocialButton({
     Key? key,
     required this.onTap,
+    required this.label,
+    required this.icon,
+    required this.background,
+    required this.color,
   }) : super(key: key);
 
   @override
@@ -16,14 +25,15 @@ class SocialButton extends StatelessWidget {
     return InkWell(
       onTap: onTap,
       child: Container(
+        margin: const EdgeInsets.symmetric(vertical: 4),
         constraints: const BoxConstraints(minWidth: 200, maxWidth: 300),
         height: 56,
         decoration: BoxDecoration(
-          color: AppColors.shape,
+          color: background,
           borderRadius: BorderRadius.circular(8),
-          border: const Border.fromBorderSide(
-            BorderSide(color: AppColors.stroke),
-          ),
+          // border: const Border.fromBorderSide(
+          //   BorderSide(color: AppColors.stroke),
+          // ),
         ),
         child: Row(
           children: [
@@ -38,7 +48,10 @@ class SocialButton extends StatelessWidget {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Image.asset(AppImage.googleIcon),
+                    Image.asset(
+                      icon,
+                      width: 24,
+                    ),
                   ],
                 ),
               ),
@@ -49,8 +62,8 @@ class SocialButton extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text(
-                    'Entrar com google',
-                    style: AppText.buttonGray,
+                    label,
+                    style: color,
                   ),
                 ],
               ),

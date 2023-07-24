@@ -37,6 +37,13 @@
             {
               "client_id": "723139239097-746gqseaf8bv26e9fn6ob2lkslcvb4i1.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "723139239097-tjbemc68gkk088uvc83lt9fjjdk60mqo.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.cleanArchFlutter"
+              }
             }
           ]
         }
