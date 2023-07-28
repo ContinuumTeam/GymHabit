@@ -130,13 +130,3 @@ $ yarn start
 
 ## Layout
 <a href="https://www.behance.net/gallery/151584457/FitBody-UX-case-study?tracking_source=search_projects%7Cfitness+app">Behance</a>
-
-## :memo: License ##
-
-This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
-
-
-Made with :heart: by <a href="https://github.com/MatheusFontenele" target="_blank">Matheus Fontenele</a>
-
-&#xa0;
-<a href="#top">Back to top</a>
