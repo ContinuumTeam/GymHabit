@@ -25,7 +25,7 @@ class AppWidget extends StatelessWidget {
         ),
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      initialRoute: "/login",
+      initialRoute: "/home",
       routes: {
         // "/spalsh": (context) => const SplashPage(),
         "/login": (context) => LoginPage(
