@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:gymhabit/features/theme/app_colors.dart';
+import 'package:gymhabit/features/theme/app_text.dart';
 
 class WorkoutPage extends StatefulWidget {
   const WorkoutPage({super.key});
@@ -10,12 +12,20 @@ class WorkoutPage extends StatefulWidget {
 class _WorkoutPageState extends State<WorkoutPage> {
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 24),
-      child: Container(
-        decoration: const BoxDecoration(
-            color: Colors.lightGreen,
-            borderRadius: BorderRadius.all(Radius.circular(8))),
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Workout'),
+        titleTextStyle: AppText.titleHeading,
+        elevation: 0,
+        backgroundColor: Colors.transparent,
+      ),
+      body: Padding(
+        padding: const EdgeInsets.symmetric(horizontal: 24),
+        child: Container(
+          decoration: const BoxDecoration(
+              color: Colors.lightGreen,
+              borderRadius: BorderRadius.all(Radius.circular(8))),
+        ),
       ),
     );
   }

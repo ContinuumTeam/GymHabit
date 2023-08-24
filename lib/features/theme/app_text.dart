@@ -21,6 +21,12 @@ class AppText {
     color: AppColors.heading,
   );
 
+  static final titleHeading = GoogleFonts.mulish(
+    fontSize: 28,
+    fontWeight: FontWeight.bold,
+    color: AppColors.heading,
+  );
+
   static final titleBoldBackground = GoogleFonts.mulish(
     fontSize: 20,
     fontWeight: FontWeight.bold,
