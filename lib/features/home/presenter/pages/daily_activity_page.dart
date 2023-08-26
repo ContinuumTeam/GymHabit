@@ -58,7 +58,9 @@ class _DailyActivityPageState extends State<DailyActivityPage> {
         ),
       ),
       body: SingleChildScrollView(
-        padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 24),
+        padding: const EdgeInsets.symmetric(
+          horizontal: 24,
+        ),
         child: Column(
           children: [
             const StreakInfoWidget(
@@ -66,7 +68,8 @@ class _DailyActivityPageState extends State<DailyActivityPage> {
             ),
             Column(
               children: [
-                SizedBox(
+                Container(
+                  margin: const EdgeInsets.only(top: 18),
                   width: double.infinity,
                   child: Text(
                     'Daily activity',

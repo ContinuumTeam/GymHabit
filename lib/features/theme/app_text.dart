@@ -51,15 +51,15 @@ class AppText {
     color: AppColors.heading,
   );
 
-  static final trailingRegular = GoogleFonts.lexendDeca(
+  static final trailingRegular = GoogleFonts.mulish(
     fontSize: 16,
     fontWeight: FontWeight.w400,
     color: AppColors.heading,
   );
 
-  static final trailingBold = GoogleFonts.lexendDeca(
+  static final trailingBold = GoogleFonts.mulish(
     fontSize: 16,
-    fontWeight: FontWeight.w600,
+    fontWeight: FontWeight.bold,
     color: AppColors.heading,
   );
 
