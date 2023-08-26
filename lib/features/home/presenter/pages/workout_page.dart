@@ -184,28 +184,26 @@ class _WorkoutPageState extends State<WorkoutPage> {
                                       ),
                                     ),
                                   ),
-                                  child: const Expanded(
-                                    child: Text.rich(
-                                      TextSpan(
-                                        text: '30\n',
-                                        style: TextStyle(
-                                          fontWeight: FontWeight.w400,
-                                          fontSize: 20,
-                                          color: AppColors.background,
-                                        ),
-                                        children: [
-                                          TextSpan(
-                                            text: 'Minutes',
-                                            style: TextStyle(
-                                              fontWeight: FontWeight.w100,
-                                              fontSize: 12.0,
-                                              color: AppColors.background,
-                                            ),
-                                          ),
-                                        ],
+                                  child: const Text.rich(
+                                    TextSpan(
+                                      text: '30\n',
+                                      style: TextStyle(
+                                        fontWeight: FontWeight.w400,
+                                        fontSize: 20,
+                                        color: AppColors.background,
                                       ),
-                                      textAlign: TextAlign.center,
+                                      children: [
+                                        TextSpan(
+                                          text: 'Minutes',
+                                          style: TextStyle(
+                                            fontWeight: FontWeight.w100,
+                                            fontSize: 12.0,
+                                            color: AppColors.background,
+                                          ),
+                                        ),
+                                      ],
                                     ),
+                                    textAlign: TextAlign.center,
                                   ),
                                 ),
                                 const Expanded(
