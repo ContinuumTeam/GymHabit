@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 import 'package:gymhabit/features/theme/app_colors.dart';
-import 'package:gymhabit/features/theme/app_text.dart';
 
 import 'package:gymhabit/features/home/presenter/controller/home_controller.dart';
 import 'package:gymhabit/features/home/presenter/pages/daily_activity_page.dart';

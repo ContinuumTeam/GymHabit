@@ -27,6 +27,18 @@ class AppText {
     color: AppColors.heading,
   );
 
+  static final titleCard = GoogleFonts.mulish(
+    fontSize: 22,
+    fontWeight: FontWeight.w600,
+    color: AppColors.background,
+  );
+
+  static final titleCardWhite = GoogleFonts.mulish(
+    fontSize: 14,
+    fontWeight: FontWeight.w600,
+    color: AppColors.primary,
+  );
+
   static final titleBoldBackground = GoogleFonts.mulish(
     fontSize: 20,
     fontWeight: FontWeight.bold,
