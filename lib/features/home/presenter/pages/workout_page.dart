@@ -275,7 +275,7 @@ class _WorkoutPageState extends State<WorkoutPage> {
       ),
       body: SingleChildScrollView(
         child: Padding(
-          padding: const EdgeInsets.only(left: 24, right: 24, bottom: 24),
+          padding: const EdgeInsets.only(left: 24, right: 24),
           child: Column(
             children: [
               // teste
