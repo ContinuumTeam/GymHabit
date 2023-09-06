@@ -13,10 +13,6 @@ class _NutritionPageState extends State<NutritionPage> {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 24),
       child: Container(
-        decoration: const BoxDecoration(
-            color: Colors.red,
-            borderRadius: BorderRadius.all(Radius.circular(8))),
-      ),
     );
   }
 }
