@@ -12,7 +12,7 @@ class _NutritionPageState extends State<NutritionPage> {
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 24),
-      child: Container(
+      child: Container(),
     );
   }
 }
