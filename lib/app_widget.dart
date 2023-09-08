@@ -6,6 +6,7 @@ import 'core/injections/container_injection.dart';
 import 'features/auth/presenter/controllers/login_controller.dart';
 import 'features/auth/presenter/screens/pages/login/login_page.dart';
 import 'features/home/presenter/home_page.dart';
+import 'features/home/presenter/pages/program.dart';
 
 class AppWidget extends StatelessWidget {
   const AppWidget({super.key});
@@ -32,6 +33,7 @@ class AppWidget extends StatelessWidget {
               controller: getIt.get<LoginController>(),
             ),
         "/home": (context) => const HomePage(),
+        "/program": (context) => const Program(),
       },
     );
   }
