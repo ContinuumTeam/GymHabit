@@ -335,20 +335,21 @@ class _WorkoutPageState extends State<WorkoutPage> {
                 ],
               ),
               ListView.builder(
-                  shrinkWrap: true,
-                  physics: const NeverScrollableScrollPhysics(),
-                  itemCount: 3,
-                  scrollDirection: Axis.vertical,
-                  itemBuilder: (context, index) {
-                    return const CardProgramWidget(
-                      week: 'Week 1',
-                      description:
-                          'Find your fit with an introductory yogo flow and streches plus tips on',
-                      totalWorkouts: '3 Workouts',
-                      totaTime: '45 min',
-                      icon: 'assets/images/program.jpeg',
-                    );
-                  }),
+                shrinkWrap: true,
+                physics: const NeverScrollableScrollPhysics(),
+                itemCount: 3,
+                scrollDirection: Axis.vertical,
+                itemBuilder: (context, index) {
+                  return const CardProgramWidget(
+                    week: 'Week 1',
+                    description:
+                        'Find your fit with an introductory yogo flow and streches plus tips on',
+                    totalWorkouts: '3 Workouts',
+                    totaTime: '45 min',
+                    icon: 'assets/images/program.jpeg',
+                  );
+                },
+              ),
             ],
           ),
         ),
