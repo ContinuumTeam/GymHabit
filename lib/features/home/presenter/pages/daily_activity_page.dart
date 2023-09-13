@@ -191,29 +191,24 @@ class _DailyActivityPageState extends State<DailyActivityPage> {
                                 ),
                               ),
                             ),
-                            Padding(
-                              padding: const EdgeInsets.symmetric(
-                                horizontal: 0,
-                              ),
-                              child: SizedBox(
-                                width: double.infinity,
-                                child: ListTile(
-                                  title: Text.rich(
-                                    TextSpan(
-                                      text: '75 ',
-                                      style: AppText.cardTextBold,
-                                      children: [
-                                        TextSpan(
-                                          text: 'KG',
-                                          style: AppText.cardText,
-                                        ),
-                                      ],
-                                    ),
+                            SizedBox(
+                              width: double.infinity,
+                              child: ListTile(
+                                title: Text.rich(
+                                  TextSpan(
+                                    text: '75 ',
+                                    style: AppText.cardTextBold,
+                                    children: [
+                                      TextSpan(
+                                        text: 'KG',
+                                        style: AppText.cardText,
+                                      ),
+                                    ],
                                   ),
-                                  subtitle: Text(
-                                    'Last update 2 days ago',
-                                    style: AppText.cardText,
-                                  ),
+                                ),
+                                subtitle: Text(
+                                  'Last update 2 days ago',
+                                  style: AppText.cardText,
                                 ),
                               ),
                             ),
