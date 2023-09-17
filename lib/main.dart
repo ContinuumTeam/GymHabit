@@ -23,27 +23,27 @@ class _AppFireBaseState extends State<AppFireBase> {
     return FutureBuilder(
       future: _initialization,
       builder: (context, snapshot) {
-        if (snapshot.hasError) {
-          return const Material(
-              child: Center(
-            child: Text(
-              'Nao foi possivel iniciar o FireBase',
-              textDirection: TextDirection.ltr,
-            ),
-          ));
-        }
+        // if (snapshot.hasError) {
+        //   return const Material(
+        //       child: Center(
+        //     child: Text(
+        //       'Nao foi possivel iniciar o FireBase',
+        //       textDirection: TextDirection.ltr,
+        //     ),
+        //   ));
+        // }
 
-        if (snapshot.connectionState == ConnectionState.done) {
-          return const MaterialApp(
-            home: AppWidget(),
-          );
-        }
-
-        return const Material(
-          child: Center(
-            child: CircularProgressIndicator(),
-          ),
+        // if (snapshot.connectionState == ConnectionState.done) {
+        return const MaterialApp(
+          home: AppWidget(),
         );
+        // }
+
+        // return const Material(
+        //   child: Center(
+        //     child: CircularProgressIndicator(),
+        //   ),
+        // );
       },
     );
   }

@@ -8,7 +8,7 @@ class AppColors {
   static const blue = Color(0xFF0673E7);
   static const heading = Color(0xFF3A3A3A);
   static const text = Color(0xFF6B6B6B);
-  static const grey = Color(0xFF585666);
+  static const grey = Color(0xFFD6D6D6);
   static const card = Color(0xFFF3EFEA);
   static const delete = Color(0xFFAA4749);
   static const body = Color(0xFF706E7A);
