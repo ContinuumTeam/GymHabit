@@ -48,7 +48,7 @@ class _HomePageState extends State<HomePage> {
           child: Container(
             decoration: BoxDecoration(
               borderRadius: const BorderRadius.all(
-                Radius.circular(99),
+                Radius.circular(18),
               ),
               color: AppColors.background,
               boxShadow: [

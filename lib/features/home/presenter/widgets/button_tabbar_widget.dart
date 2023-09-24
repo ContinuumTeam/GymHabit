@@ -17,13 +17,15 @@ class ButtonTabBarWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 55,
-      height: 55,
+      width: 70,
+      height: 60,
       decoration: BoxDecoration(
         borderRadius: const BorderRadius.all(
-          Radius.circular(99),
+          Radius.circular(16),
         ),
-        color: pageActive ? AppColors.grey : AppColors.background,
+        color: pageActive
+            ? const Color.fromARGB(255, 241, 238, 238)
+            : AppColors.background,
       ),
       child: IconButton(
         onPressed: onPressed,
